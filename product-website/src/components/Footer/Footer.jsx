@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className={css.footerWrapper}>
         <p className={css.footerText}>
           &copy;
-          {new Date().getFullYear()} {name}
+          {new Date().getFullYear()} Developed by {name}
         </p>
       </footer>
     </div>
