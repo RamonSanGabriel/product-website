@@ -3,13 +3,14 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
+import Header from './components/Header/Header';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h2>CheekyChickShop</h2>
+      <Header />
       <NavBar />
     </>
   );

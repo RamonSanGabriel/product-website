@@ -1,0 +1,12 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLogo {
+  margin: 0.25rem;
+  /* width: 48px; */
+  height: 36px;
+  border-radius: 50px;
+}
