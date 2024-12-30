@@ -1,0 +1,16 @@
+.informationWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3125rem;
+
+  &.header {
+    padding: 0.3125rem;
+    color: red;
+  }
+
+  & h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.75rem;
+  }
+}
