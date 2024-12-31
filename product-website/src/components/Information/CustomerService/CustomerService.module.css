@@ -1,0 +1,13 @@
+span {
+  font-size: 0.75rem;
+}
+.customerService {
+  cursor: pointer;
+
+  & p {
+    display: inline;
+  }
+  &:hover p {
+    color: hsl(10, 85%, 55%);
+  }
+}
