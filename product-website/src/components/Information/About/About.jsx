@@ -12,12 +12,12 @@ const About = () => {
         </li>
         <li className={css.aboutUs}>
           <span>
-            &nbsp; <p>Instagram</p>
+            &nbsp; <p>Policies</p>
           </span>
         </li>
         <li className={css.aboutUs}>
           <span>
-            &nbsp; <p>Twitter</p>
+            &nbsp; <p>Privacy Policy</p>
           </span>
         </li>
       </ul>
