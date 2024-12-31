@@ -7,17 +7,17 @@ const CustomerService = () => {
       <ul>
         <li className={css.customerService}>
           <span>
-            &nbsp; <p>Help centre</p>
+            <p>Help centre</p>
           </span>
         </li>
         <li className={css.customerService}>
           <span>
-            &nbsp; <p>Return & Refund</p>
+            <p>Return & Refund</p>
           </span>
         </li>
         <li className={css.customerService}>
           <span>
-            &nbsp; <p>Contact Us</p>
+            <p>Contact Us</p>
           </span>
         </li>
       </ul>

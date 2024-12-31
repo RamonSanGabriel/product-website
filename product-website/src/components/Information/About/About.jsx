@@ -7,17 +7,17 @@ const About = () => {
       <ul>
         <li className={css.aboutUs}>
           <span>
-            &nbsp; <p>Who we are</p>
+            <p>Who we are</p>
           </span>
         </li>
         <li className={css.aboutUs}>
           <span>
-            &nbsp; <p>Policies</p>
+            <p>Policies</p>
           </span>
         </li>
         <li className={css.aboutUs}>
           <span>
-            &nbsp; <p>Privacy Policy</p>
+            <p>Privacy & Policy</p>
           </span>
         </li>
       </ul>

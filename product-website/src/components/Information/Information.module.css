@@ -3,6 +3,7 @@
   justify-content: space-between;
   padding: 0.5rem;
   background-color: hsla(210, 11%, 15%, 0.159);
+  gap: 5px;
 
   & h6 {
     text-transform: uppercase;
