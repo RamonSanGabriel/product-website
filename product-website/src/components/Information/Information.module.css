@@ -1,7 +1,7 @@
 .informationWrapper {
   display: flex;
   justify-content: space-between;
-  padding: 0.3125rem;
+  padding: 0.5rem;
   background-color: hsla(210, 11%, 15%, 0.159);
 
   & h6 {
