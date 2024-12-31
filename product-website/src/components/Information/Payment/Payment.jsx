@@ -1,6 +1,7 @@
 import css from './Payment.module.css';
 import bdo from '../../../images/bdoLogo.png';
 import bpi from '../../../images/bpi.png';
+import gcash from '../../../images/gcashLogo2.png';
 
 const Payment = () => {
   return (
@@ -9,14 +10,21 @@ const Payment = () => {
       <ul>
         <li className={css.socialMedia}>
           <span>
-            <img className={css.paymentLogo} src={bdo} alt="" />
-            &nbsp; <p>Banco De Oro</p>
+            <img className={css.paymentLogo} src={bdo} alt="BDO Logo" />
           </span>
         </li>
         <li className={css.socialMedia}>
           <span>
-            <img className={css.paymentLogo} src={bpi} alt="" />
-            &nbsp; <p>Bank of the Philippine Islands</p>
+            <img className={css.paymentLogo} src={bpi} alt="BPI Logo" />
+          </span>
+        </li>
+        <li className={css.socialMedia}>
+          <span>
+            <img
+              className={css.paymentLogoGcash}
+              src={gcash}
+              alt="Gcash Logo"
+            />
           </span>
         </li>
       </ul>
