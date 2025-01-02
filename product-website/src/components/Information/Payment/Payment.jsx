@@ -1,7 +1,7 @@
 import css from './Payment.module.css';
 import bdo from '../../../images/bdoLogo.png';
 import bpi from '../../../images/bpi.png';
-import gcash from '../../../images/gcashLogo2.png';
+import gcash from '../../../images/gcashLogo.png';
 
 const Payment = () => {
   return (
