@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Loader } from 'components/Loader/Loader';
-import { SearchBar } from 'components/SearchBar/SearchBar';
-import { fetchMovieQuery } from '../../services/themoviedb-api';
-import MovieList from 'components/MovieList/MovieList';
+import { Loader } from '../../components/Loader/Loader';
+import { SearchBar } from '../../components/SearchBar/SearchBar';
+import { fetchMovieQuery } from '../../services/products-api';
+import MovieList from '../../components/MovieList/MovieList';
 
 const MoviePage = () => {
   const [searchResults, setSearchResults] = useState([]);
@@ -20,8 +20,8 @@ const MoviePage = () => {
     (async () => {
       try {
         setIsLoading(true);
-        const movies = await fetchMovieQuery(movieName);
-        setSearchResults(movies);
+        const products = await fetchMovieQuery(movieName);
+        setSearchResults(products);
       } catch (error) {
         console.error(error);
       } finally {
@@ -31,13 +31,13 @@ const MoviePage = () => {
   }, [movieName]);
   return (
     <div>
-      <SearchBar value={movieName} onChange={updateQueryString} />
+      {/* <SearchBar value={movieName} onChange={updateQueryString} /> */}
       {isLoading ? (
         <Loader />
       ) : movieName && searchResults.length === 0 ? (
         <h2>Nothing found</h2>
       ) : (
-        <MovieList movies={searchResults} />
+        <MovieList products={searchResults} />
       )}
     </div>
   );
